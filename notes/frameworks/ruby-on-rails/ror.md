@@ -397,7 +397,7 @@ In order to protect against CSRF attacks, you can add protect_from_forgery to yo
 - Why do we need to use HTTPS instead of HTTP?
 
 
-Tessting
+Testing
 What is unit testing (in classical terms)?
 What is the primary technique for writing a test?
 What are your favorite tools for writing unit tests?
@@ -436,3 +436,5 @@ It should have automated tests for all functionality (models - RSpec, controller
 The result should be similar to the one in the screenshot below:
 
 ![Take home task](./rails-take-home-task.jpg)
+
+Source : https://rubygarage.org/blog/how-to-interview-your-ruby-on-rails-developer
