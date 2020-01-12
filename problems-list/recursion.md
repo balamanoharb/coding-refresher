@@ -48,3 +48,7 @@ For example: If N = 13, out should be 5 because there are 5 ways to reach to a s
 Input Array: {-2, -3, 4, -1, -2, 1, 5, -3}
 Output: 7
 (-2, -3, **4, -1, -2, 1, 5, -3**)
+
+## Source
+
+Dynamic Programming for Coding Interviews, A Bottom-Up approach to problem solving by Meenakshi & Kamal Rawat

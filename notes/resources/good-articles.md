@@ -9,7 +9,8 @@
 - https://decuqa.tumblr.com/post/140681253001/subsets-vs-permutations-survival-guide
 - https://www.reddit.com/r/cscareerquestions/comments/avf528/a_tiny_guide_to_grinding_leetcode_problems/
 - https://leetcode.com/discuss/general-discussion/458695/dynamic-programming-patterns
-
+- https://leetcode.com/discuss/general-discussion/475924/my-experience-and-notes-for-learning-dp
+- https://leetcode.com/problems/target-sum/discuss/455024/dp-is-easy-5-steps-to-think-through-dp-questions/424058
 
 Bit Manipulation
 

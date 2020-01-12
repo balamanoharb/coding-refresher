@@ -18,7 +18,7 @@ These operators can come in select or in where conditions
 
 These operators can be used in where condition as well
 
-```mysql
+```sql
 SELECT EnglishProductName,
        Color,
        StandardCost,
@@ -44,7 +44,7 @@ SELECT EnglishProductName,
 | random number between 0 to 1 | rand() |
 | random number with seed n, repeatable value | rand(n) |
 
-## String funcitions
+## String functions
 
 >NOTE : In MySQL string starts with base index as 1
 
@@ -62,16 +62,32 @@ SELECT EnglishProductName,
 
 # limit and offset
 
-
 - limit 10
-- will return 10 records
+- will return first 10 records
 
 - limit 1, 10
 - will start from row number 2 and return 10 records
 
 - limit 10 offset 1
--will start from row number 2 and return 10 records
+- will start from row number 2 and return 10 records
 
+> Limit and Offsets are generally used for pagination
+> It is better to use LIMIT no_of_records_to_be_returned OFFSET where_to_start_from for readability
+
+## Pagination
+
+```sql
+SELECT * FROM tbl order by id asc LIMIT 5,10;
+-- rows 6-15
+
+-- both are same
+SELECT id,name,description FROM tablename LIMIT 1000,25
+SELECT id,name,description FROM tablename LIMIT 25 OFFSET 1000
+```
+
+## Performance for pagination
+
+- https://use-the-index-luke.com/no-offset
 
 # Where conditions
 
@@ -119,6 +135,29 @@ group by RowNumber;
 ```
 
 # Questions
+
+- What is a storage engine ?
+
+Storage engine is the core module used by a dbms to do CRUD operations on data.
+
+- What are different types of Storage engines ? List all Storage Engines you know.
+
+There are two types of storage engines in MySQL. They are:
+1. Transactional
+    - InnoDB
+2. Non Transactional
+    - MyISAM
+    - Others
+        - Memory
+        - CSV
+        - Merge
+        - Archive
+        - Federated
+        - Example
+
+> InnoDB and MyISAM are the most used ones.
+
+- What storage engine do you use and why ?
 
 - What type of field would you use to store currency information in a MySQL database?
 
@@ -230,16 +269,3 @@ WHERE
     </tr>
   </tbody>
 </table>
-
-- Pagination with mysql
-
-```sql
-SELECT * FROM tbl order by id asc LIMIT 5,10;  # Retrieve 
--- rows 6-15
-
-SELECT id,name,description FROM tablename LIMIT 1000,25
--- both are same
-SELECT id,name,description FROM tablename LIMIT 25 OFFSET 1000
-```
-
-- better way of pagination - https://use-the-index-luke.com/no-offset

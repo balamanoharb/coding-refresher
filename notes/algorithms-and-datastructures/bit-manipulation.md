@@ -166,7 +166,7 @@ mask = =(1 << i);
 (num & mask) I (value << i);
 ```
 
-### Check if a particular bit is set
+### Extract a bit at given position
 
 ```
 num & (1<<pos)
@@ -178,27 +178,25 @@ num & (1<<pos)
 num ^ (1 << pos)
 ```
 
-
-ation hacks.
-Bit Hack #1. Check if an given integer is even or odd
-Bit Hack #2. Detect if two integers have opposite signs or not
-Bit Hack #3. Add 1 to a given integer
-Bit Hack #4. Swap two numbers without using any third variable
-Bit Hack #5. Turn off kth bit in a number
-Bit Hack #6. Turn on kth bit in a number
-Bit Hack #7. Check if kth bit is set for a number
-Bit Hack #8. Toggle the kth bit
-Bit Hack #9. Check if given positive integer is a power of 2 without using any branching or loop
-Bit Hack #10. Find position of the rightmost set bit
-Bit Hack #11. Find position of the only set bit in a number
-Bit Hack #12. Computing parity of a number (Naive solution)
-Bit Hack #13. Convert uppercase character to lowercase
-Bit Hack #14. Convert lowercase character to uppercase
-Bit Hack #15. Invert alphabet’s case
-Bit Hack #16. Find letter’s position in alphabet
-Bit Hack #17. Given an integer, compute its absolute value (abs) without branching
-Bit Hack #18. Find number of bits needed to be flipped to convert given integer to another
-Bit Hack #19. Check if binary representation of a number is palindrome or not
-Bit Hack #20. Find XOR of two numbers without using XOR operator
+1. Check if an given integer is even or odd
+2. Detect if two integers have opposite signs or not
+3. Add 1 to a given integer
+4. Swap two numbers without using any third variable
+5. Turn off kth bit in a number
+6. Turn on kth bit in a number
+7. Check if kth bit is set for a number
+8. Toggle the kth bit
+9. Check if given positive integer is a power of 2 without using any branching or loop
+10. Find position of the rightmost set bit
+11. Find position of the only set bit in a number
+12. Computing parity of a number (Naive solution)
+13. Convert uppercase character to lowercase
+14. Convert lowercase character to uppercase
+15. Invert alphabet’s case
+16. Find letter’s position in alphabet
+17. Given an integer, compute its absolute value (abs) without branching
+18. Find number of bits needed to be flipped to convert given integer to another
+19. Check if binary representation of a number is palindrome or not
+20. Find XOR of two numbers without using XOR operator
 
 Ref : https://www.youtube.com/watch?v=ZusiKXcz_ac

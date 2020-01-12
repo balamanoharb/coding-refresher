@@ -36,3 +36,5 @@
 | 25 | 2020-01-10 06:30:42 |  Had to read about it | [Counting Bits](../../src/practice/session-1/counting_bits.rb)|
 | 26 | 2020-01-10 06:41:22 | Had to read bit manipulation| [Missing Number](../../src/practice/session-1/missing_number.rb)|
 | 27 | 2020-01-10 07:40:38 | Y  | [Reverse Bits](../../src/practice/session-1/reverse_bits.rb)|
+|         Day - 7 |
+| 28 |  | Y  | 
