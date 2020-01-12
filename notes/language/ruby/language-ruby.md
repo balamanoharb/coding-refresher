@@ -250,7 +250,7 @@ else condition
 end
 ```
 
-### 1.6.2. SWITCH
+### 1.6.2. Switch Case
 
 ```ruby
 case x
