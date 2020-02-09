@@ -1,4 +1,5 @@
 - https://discuss.codechef.com/questions/18752/what-are-the-must-known-algorithms-for-online-programming-contests
+- https://www.quora.com/What-is-a-list-of-data-structures-that-a-competitive-programmer-must-know/answer/Sameer-Gulati-3
 
 - http://web.stanford.edu/class/cs97si/
 
