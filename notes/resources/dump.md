@@ -307,3 +307,7 @@ http://mlubinsky.github.io/
 ## Theory
 
 1. Grokking Algorithms
+
+## system design blogs
+
+- https://tianrunhe.wordpress.com/tag/system-design/
