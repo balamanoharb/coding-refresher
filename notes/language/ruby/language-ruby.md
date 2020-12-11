@@ -69,8 +69,9 @@
 
 - falsy values = **nil** and **false**
 - everything else is true. even including
-    - 0 - numeric zero (Integer or otherwise)
+    - 0 - numeric zero
     - "" - Empty strings
+    - "0" - String 0
     - "\n" - Strings containing only whitespace
     - [] - Empty arrays
     - {} - Empty hashes
@@ -110,7 +111,8 @@ my_val.empty?
 # returns true
 ```
 
-> NOTE : empty? is not part of Numbers
+> NOTE : empty? is not part of Numeric or nil.
+> empty? should be used only if you are expecting something other than nil or number
 
 ### 1.3.4. check if array is empty
 

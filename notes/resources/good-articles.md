@@ -1,4 +1,3 @@
-- https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently
 - https://gregable.com/2013/10/majority-vote-algorithm-find-majority.html
 - https://leetcode.com/problems/missing-number/discuss/69832/1%2B-lines-Ruby-Python-Java-C%2B%2B
 - https://leetcode.com/problems/house-robber/discuss/156523/From-good-to-great.-How-to-approach-most-of-DP-problems.
@@ -15,6 +14,8 @@
 Bit Manipulation
 
 - https://leetcode.com/problems/sum-of-two-integers/discuss/167931/Solution-with-ACTUAL-explanation-(how-you-would-work-this-out)
--https://leetcode.com/problems/counting-bits/discuss/270693/Intermediate-processsolution-for-the-most-voted-solution-i.e.-no-simplificationtrick-hidden
+- https://leetcode.com/problems/counting-bits/discuss/270693/Intermediate-processsolution-for-the-most-voted-solution-i.e.-no-simplificationtrick-hidden
 - https://leetcode.com/discuss/general-discussion/494279/data-structure-and-algorithm-study-guide
 - https://leetcode.com/discuss/general-discussion/491522/dynamic-programming-questions-thread
+- https://heidi-newton.com/blog/getting-good-at-leetcode
+- https://discuss.codechef.com/t/bit-manipulation-course-for-beginners-with-practice-problems-5-april-2020-new-video-added/57935

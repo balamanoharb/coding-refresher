@@ -199,4 +199,6 @@ num ^ (1 << pos)
 19. Check if binary representation of a number is palindrome or not
 20. Find XOR of two numbers without using XOR operator
 
-Ref : https://www.youtube.com/watch?v=ZusiKXcz_ac
+Refs
+1. https://www.youtube.com/watch?v=ZusiKXcz_ac
+2. https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary%3A-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently
